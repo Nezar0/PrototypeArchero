@@ -6,8 +6,8 @@ public class Lightning : Ammo
     [SerializeField] LightningAim aim;
 
     private int count = 0;
-    private bool hit = false;
-    private Transform MyTarget;
+    [SerializeField] private bool hit = false;
+    [SerializeField] private Transform MyTarget;
 
     private float _damage;
 

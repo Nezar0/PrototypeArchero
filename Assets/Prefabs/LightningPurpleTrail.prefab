@@ -14725,7 +14725,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: -0.92, y: -0.87, z: -0.98}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: 0.4}
 --- !u!114 &4797395482158901685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14741,9 +14741,6 @@ MonoBehaviour:
   speed: 15
   rigidbody: {fileID: 6170529783757526859}
   aim: {fileID: 2347393855397208434}
-  hit: 0
-  MyTarget: {fileID: 0}
-  targetIndex: 0
 --- !u!114 &2347393855397208434
 MonoBehaviour:
   m_ObjectHideFlags: 0
